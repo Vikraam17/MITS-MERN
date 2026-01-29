@@ -7,7 +7,7 @@ const About = ({name}) => {
       <p>Name: {name}</p>
       {/* <p>Age: {age}</p> */}
       {/* <p>Department: {dept}</p> */}
-      <Contact name = {name}/>
+      {/* <Contact name = {name}/> */}
     </div>
   )
 }

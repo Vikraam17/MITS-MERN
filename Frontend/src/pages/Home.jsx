@@ -12,8 +12,9 @@ const Home = ({name}) => {
         <h1>Name : {name}</h1>
         <button onClick={handleClick}>Go to about page</button>
         <About name = {name}/>
+        <About name = {name}/>
+        <About name = {name}/>
     </div>
   )
 }
-
 export default Home

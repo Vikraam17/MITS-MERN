@@ -10,7 +10,7 @@ const Contact = ({name}) => {
     <div>
       <h1>Name : {name1}</h1>
       <button onClick={toggleName}>Toggle</button>
-      <Service name = {name}/>
+      {/* <Service name = {name}/> */}
     </div>
   )
 }
